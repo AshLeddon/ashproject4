@@ -3,9 +3,9 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      nodejs: 18
+      nodejs: 14 
     commands:
-      - echo installing nodeJS version 20...
+      - echo installing nodeJS version 14...
   pre_build:
     commands:
       - echo installing dependencies...
